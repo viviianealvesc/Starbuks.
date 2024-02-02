@@ -10,7 +10,6 @@
 }
 
 html, body {
-    height: 100%;
     overflow-y: hidden;
 }
 
@@ -24,7 +23,6 @@ html, body {
 }
 
 header {
-    height: 200px;
     padding: 20px 0;
 }
 
@@ -66,10 +64,36 @@ a:hover {
     background-color: #017143;
 }
 
+.extras-drink1 {
+    position: absolute;
+    border-radius: 100% 0% 0% 0%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 580px;
+    height: 550px;
+    background-color: #ad74ed;
+}
+
+.extras-drink2 {
+    position: absolute;
+    border-radius: 100% 0% 0% 0%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 580px;
+    height: 550px;
+    background-color: #ef62b9;
+}
+
 
 .drink-principal {
     filter: drop-shadow(0 0 20px #17cc81);
     animation: drink 5s infinite;
+}
+
+.drink {
+    width: 5%;
 }
 
 @keyframes drink {

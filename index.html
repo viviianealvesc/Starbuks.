@@ -26,7 +26,7 @@
     <section class="sobre">
         <!--ESSA DIV IRÁ VIRAR UM CIRCULO-->
         <div class="extras">
-                <img class="drink-principal" src="./image/drink-principal.png" alt="drink">
+                <img id="imagem-principal" class="drink-principal" src="./image/drink-principal.png" alt="drink">
             <div class="social-midia">
                 <a href="#"><img src="./image/facebook.png"/></a>
                 <a href="#"><img src="./image/instagram.png"/></a>
@@ -41,6 +41,16 @@
         </div>
        </div>
     </section>
+    <section id="opcoes">
+        <div class="box">
+            <label for="drink"><img class="drink" id="0-imagem" src="image/imagem-0.jpg" alt="" onclick="mudarImagem()"></label>
+            <li><input type="radio" name="opcao-cor" id="0-cor" onclick="atualizarCorSelecionada()"><label for="0-cor"><img src="./imagens/opcoes-cores/verde-cipreste.jpeg" alt="" srcset=""></label></li>
+            <img class="drink" id="1-imagem" src="image/imagem-1.jpg" alt="" onclick="mudarImagem()">
+            <img class="drink" id="2-imagem" src="image/imagem-2.jpg" alt="" onclick="mudarImagem()">
+        </div>    
+    </section>
+
+    <script src="scripts.js"></script>
     
 </body>
 </html>
